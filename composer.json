@@ -1,0 +1,37 @@
+{
+  "name": "pixelalbatross/accordion-block",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Pixel Albatross",
+      "homepage": "https://pixelalbatross.pt"
+    },
+    {
+      "name": "Sérgio Santos",
+      "homepage": "https://s3rgiosan.dev"
+    }
+  ],
+  "autoload": {},
+  "require": {
+    "php": ">=7.4",
+    "composer-plugin-api": "^2.3"
+  },
+  "require-dev": {
+    "pixelalbatross/coding-standards": "dev-main"
+  },
+  "scripts": {
+    "lint": "phpcs .",
+    "lint-fix": "phpcbf ."
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/installers": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    },
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "7.4"
+    }
+  }
+}

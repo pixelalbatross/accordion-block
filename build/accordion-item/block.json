@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "pixelalbatross/accordion-item",
+  "title": "Accordion Item",
+  "category": "layout",
+  "parent": [
+    "pixelalbatross/accordion"
+  ],
+  "icon": "editor-table",
+  "description": "Display content in a collapsible accordion.",
+  "keywords": [],
+  "version": "0.1.0",
+  "textdomain": "accordion-block",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "isOpen": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "supports": {
+    "html": false,
+    "reusable": false
+  },
+  "example": {
+    "attributes": {
+      "title": "Accordion Header"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}
