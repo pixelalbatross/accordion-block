@@ -4,8 +4,8 @@
 
 ## Overview
 
-This block has no styling other than the essentials for toggling the visibility of accordion sections and working without JavaScript support.
-It was heavily based on the accordion patterns recommended by the [WAI](https://www.w3.org/WAI/ARIA/apg/patterns/accordion/) and the [GOV.UK Design System team](https://design-system.service.gov.uk/components/accordion/).
+This block has no styles other than the essentials for toggling the visibility of accordion sections and working without JavaScript support. 
+It was heavily inspired on the accordion patterns recommended by the [WAI](https://www.w3.org/WAI/ARIA/apg/patterns/accordion/) and the [GOV.UK Design System team](https://design-system.service.gov.uk/components/accordion/).
 The icons are from [Themify Icons](https://themify.me/themify-icons).
 
 ## Requirements
