@@ -10,6 +10,8 @@
  * Author URI:        https://pixelalbatross.pt/?utm_source=wp-plugins&utm_medium=accordion-block&utm_campaign=author-uri
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Update URI:        https://pixelalbatross.pt/
+ * GitHub Plugin URI: https://github.com/pixelalbatross/accordion-block
  * Text Domain:       accordion-block
  *
  * @package           pixelalbatross/accordion-block
