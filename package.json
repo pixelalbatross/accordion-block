@@ -1,7 +1,7 @@
 {
   "name": "accordion-block",
   "version": "0.1.0",
-  "description": "Display content in a collapsible accordion.",
+  "description": "Display content in collapsible sections.",
   "contributors": [
     {
       "name": "Pixel Albatross",

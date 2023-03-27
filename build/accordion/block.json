@@ -5,7 +5,7 @@
   "title": "Accordion",
   "category": "layout",
   "icon": "editor-table",
-  "description": "Display content in a collapsible accordion.",
+  "description": "Display content in collapsible sections.",
   "keywords": [
     "accordion",
     "collapse"

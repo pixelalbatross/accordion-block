@@ -42,11 +42,11 @@ $aria_label_close = sprintf(
 			>
 				<?php
 				/**
-				 * Fires before the title field.
+				 * Fires before the accordion item title.
 				 *
 				 * @param string {title} Accordion item title.
 				 */
-				do_action( 'pixelalbatross_accordion_block_before_title', $attributes['title'] );
+				do_action( 'pixelalbatross_accordion_block_before_item_title', $attributes['title'] );
 				?>
 
 				<span class="accordion-title">
@@ -55,11 +55,11 @@ $aria_label_close = sprintf(
 
 				<?php
 				/**
-				 * Fires after the title field.
+				 * Fires after the accordion item title
 				 *
 				 * @param string {title} Accordion item title.
 				 */
-				do_action( 'pixelalbatross_accordion_block_after_title', $attributes['title'] );
+				do_action( 'pixelalbatross_accordion_block_after_item_title', $attributes['title'] );
 				?>
 			</button>
 		</h2>

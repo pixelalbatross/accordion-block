@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Accordion Block
- * Description:       Display content in a collapsible accordion.
+ * Description:       Display content in collapsible sections.
  * Plugin URI:        https://pixelalbatross.pt/?utm_source=wp-plugins&utm_medium=accordion-block&utm_campaign=plugin-uri
  * Requires at least: 6.1
  * Requires PHP:      7.4

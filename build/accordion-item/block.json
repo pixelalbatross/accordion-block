@@ -8,7 +8,7 @@
     "pixelalbatross/accordion"
   ],
   "icon": "editor-table",
-  "description": "Display content in a collapsible accordion.",
+  "description": "Display content in collapsible sections.",
   "keywords": [],
   "version": "0.1.0",
   "textdomain": "accordion-block",
