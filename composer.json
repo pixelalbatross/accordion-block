@@ -29,9 +29,6 @@
       "composer/installers": true,
       "dealerdirect/phpcodesniffer-composer-installer": true
     },
-    "optimize-autoloader": true,
-    "platform": {
-      "php": "7.4"
-    }
+    "optimize-autoloader": true
   }
 }
