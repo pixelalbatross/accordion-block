@@ -27,51 +27,44 @@ $aria_label_close = sprintf(
 	$attributes['title']
 );
 
-?>
+ob_start();
+/**
+ * Fires before the accordion item title.
+ *
+ * @param string $title Accordion item title.
+ */
+do_action( 'pixelalbatross_accordion_block_before_item_title', $attributes['title'] );
+$before_item_title = ob_end_clean();
 
-<div <?php echo get_block_wrapper_attributes(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
-	<div class="accordion-header">
-		<h2 class="accordion-heading">
-			<button
-				type="button"
-				class="accordion-button"
-				aria-expanded="<?php echo esc_attr( $is_open ? 'true' : 'false' ); ?>"
-				aria-label="<?php echo esc_attr( $is_open ? $aria_label_close : $aria_label_open ); ?>"
-				data-aria-label-open="<?php echo esc_attr( $aria_label_open ); ?>"
-				data-aria-label-close="<?php echo esc_attr( $aria_label_close ); ?>"
-			>
-				<?php
-				/**
-				 * Fires before the accordion item title.
-				 *
-				 * @param string {title} Accordion item title.
-				 */
-				do_action( 'pixelalbatross_accordion_block_before_item_title', $attributes['title'] );
-				?>
+ob_start();
+/**
+ * Fires after the accordion item title
+ *
+ * @param string $title Accordion item title.
+ */
+do_action( 'pixelalbatross_accordion_block_after_item_title', $attributes['title'] );
+$after_item_title = ob_end_clean();
 
-				<span class="accordion-title">
-					<?php echo wp_kses_post( $attributes['title'] ); ?>
-				</span>
+$button = tag('button', [
+	'type' => 'button'
+	'class' => 'accordion-button'
+	'aria-expanded' => $is_open ? 'true' : 'false',
+	'aria-label' => $is_open ? $aria_label_close : $aria_label_open,
+	'data-aria-label-open' => $aria_label_open,
+	'data-aria-label-close' => $aria_label_close,
+], $before_item_title . tag('span', ['class' => 'accordion-title'], wp_kses_post($attributes['title'])) . $after_item_title);
 
-				<?php
-				/**
-				 * Fires after the accordion item title
-				 *
-				 * @param string {title} Accordion item title.
-				 */
-				do_action( 'pixelalbatross_accordion_block_after_item_title', $attributes['title'] );
-				?>
-			</button>
-		</h2>
-	</div>
+$panel_classes = [
+	class => 'accordion-panel',
+	role => 'region',
+];
+if ( ! $is_open ) {
+	$panel_classes['hidden'] = 'until-found';
+}
 
-	<div
-		class="accordion-panel"
-		role="region"
-		<?php if ( ! $is_open ) : ?>
-		hidden="until-found"
-		<?php endif; ?>
-	>
-		<?php echo $content; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
-	</div>
-</div>
+printf(
+	'<div %s>%s%s</div>',
+	get_block_wrapper_attributes(),
+	tag('div', ['class' => 'accordion-header'], tag('h2', ['class' => 'accordion-heading'], $button)),
+	tag('div', $panel_classes, $content)
+);
