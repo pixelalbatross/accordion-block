@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file, per [the Ke
 
 ### Fixed
 
-- Improve docblocks (props @szepeviktor).
+- Improve docblocks (props [@szepeviktor](https://github.com/szepeviktor)).
 
 ## [0.1.0] - 2023-03-26
 - Initial release
