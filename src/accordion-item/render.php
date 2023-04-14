@@ -55,8 +55,8 @@ $button = tag('button', [
 ], $before_item_title . tag('span', ['class' => 'accordion-title'], wp_kses_post($attributes['title'])) . $after_item_title);
 
 $panel_classes = [
-	class => 'accordion-panel',
-	role => 'region',
+	'class' => 'accordion-panel',
+	'role' => 'region',
 ];
 if ( ! $is_open ) {
 	$panel_classes['hidden'] = 'until-found';
