@@ -2,9 +2,9 @@
 /**
  * Accordion Item
  *
- * @param array     $attributes Block attributes.
- * @param string    $content    Block default content.
- * @param \WP_Block $block      Block instance.
+ * @var array     $attributes Block attributes.
+ * @var string    $content    Block default content.
+ * @var \WP_Block $block      Block instance.
  *
  * @package pixelalbatross/accordion-block
  */
@@ -44,7 +44,7 @@ $aria_label_close = sprintf(
 				/**
 				 * Fires before the accordion item title.
 				 *
-				 * @param string {title} Accordion item title.
+				 * @param string $title Accordion item title.
 				 */
 				do_action( 'pixelalbatross_accordion_block_before_item_title', $attributes['title'] );
 				?>
@@ -55,9 +55,9 @@ $aria_label_close = sprintf(
 
 				<?php
 				/**
-				 * Fires after the accordion item title
+				 * Fires after the accordion item title.
 				 *
-				 * @param string {title} Accordion item title.
+				 * @param string $title Accordion item title.
 				 */
 				do_action( 'pixelalbatross_accordion_block_after_item_title', $attributes['title'] );
 				?>

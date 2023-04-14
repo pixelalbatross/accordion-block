@@ -2,9 +2,9 @@
 /**
  * Accordion
  *
- * @param array     $attributes Block attributes.
- * @param string    $content    Block default content.
- * @param \WP_Block $block      Block instance.
+ * @var array     $attributes Block attributes.
+ * @var string    $content    Block default content.
+ * @var \WP_Block $block      Block instance.
  *
  * @package pixelalbatross/accordion-block
  */
