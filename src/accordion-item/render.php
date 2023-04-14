@@ -46,8 +46,8 @@ do_action( 'pixelalbatross_accordion_block_after_item_title', $attributes['title
 $after_item_title = ob_end_clean();
 
 $button = tag('button', [
-	'type' => 'button'
-	'class' => 'accordion-button'
+	'type' => 'button',
+	'class' => 'accordion-button',
 	'aria-expanded' => $is_open ? 'true' : 'false',
 	'aria-label' => $is_open ? $aria_label_close : $aria_label_open,
 	'data-aria-label-open' => $aria_label_open,
