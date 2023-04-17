@@ -24,7 +24,24 @@
   },
   "supports": {
     "html": false,
-    "reusable": false
+    "reusable": false,
+    "className": true,
+    "color": {
+      "gradients": true,
+      "link": true,
+      "__experimentalDefaultControls": {
+        "background": true,
+        "text": true
+      }
+    },
+    "spacing": {
+      "padding": true,
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "blockGap": true
+    }
   },
   "example": {
     "attributes": {
