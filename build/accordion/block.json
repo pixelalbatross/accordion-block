@@ -14,7 +14,20 @@
   "textdomain": "accordion-block",
   "attributes": {},
   "supports": {
-    "html": false
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "className": true,
+    "spacing": {
+      "padding": true,
+      "margin": [
+        "top",
+        "bottom"
+      ],
+      "blockGap": true
+    }
   },
   "example": {
     "innerBlocks": [
