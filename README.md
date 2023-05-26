@@ -21,7 +21,7 @@ The icons are from [Themify Icons](https://themify.me/themify-icons).
 
 `composer require pixelalbatross/accordion-block`
 
-1. Download and extract the [.zip file](Download ZIP).
+1. Download and extract the [.zip file](https://github.com/pixelalbatross/accordion-block/archive/refs/heads/main.zip).
 2. Install the plugin via the plugin installer by uploading the .zip file.
 3. Activate the plugin.
 
