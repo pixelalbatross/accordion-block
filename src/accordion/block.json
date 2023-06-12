@@ -34,16 +34,30 @@
       {
         "name": "pixelalbatross/accordion-item",
         "attributes": {
-          "title": "Est repellat ipsum rem nihil consequatur",
-          "content": "Lorem ipsum dolor sit amet. Ut laudantium ipsum eos ipsum dolores non doloremque voluptatem eum atque dolorem eum distinctio placeat eos ipsa harum aut exercitationem dolores. In iste quidem et beatae quasi ut sequi molestiae qui voluptatem alias quo corporis aperiam qui itaque labore. Ut nisi asperiores aut galisum nihil sed molestias asperiores qui quia velit."
-        }
+          "title": "Est repellat ipsum rem nihil consequatur"
+        },
+        "innerBlocks": [
+          {
+            "name": "core/paragraph",
+            "attributes": {
+              "content": "Lorem ipsum dolor sit amet. Ut laudantium ipsum eos ipsum dolores non doloremque voluptatem eum atque dolorem eum distinctio placeat eos ipsa harum aut exercitationem dolores. In iste quidem et beatae quasi ut sequi molestiae qui voluptatem alias quo corporis aperiam qui itaque labore. Ut nisi asperiores aut galisum nihil sed molestias asperiores qui quia velit."
+            }
+          }
+        ]
       },
       {
         "name": "pixelalbatross/accordion-item",
         "attributes": {
-          "title": "At animi provident eum tenetur quam",
-          "content": "Et sequi esse id atque necessitatibus rem modi modi et perspiciatis sunt aut officiis nesciunt non culpa deleniti. Et alias iusto eum quae commodi in doloribus suscipit et cupiditate galisum."
-        }
+          "title": "At animi provident eum tenetur quam"
+        },
+        "innerBlocks": [
+          {
+            "name": "core/paragraph",
+            "attributes": {
+              "content": "Et sequi esse id atque necessitatibus rem modi modi et perspiciatis sunt aut officiis nesciunt non culpa deleniti. Et alias iusto eum quae commodi in doloribus suscipit et cupiditate galisum."
+            }
+          }
+        ]
       }
     ]
   },
