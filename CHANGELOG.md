@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file, per [the Keep a Changelog standard](http://keepachangelog.com/).
 
+## [Unreleased]
+
+### Changed
+
+- Settings panel label.
+
 ## [0.2.1] - 2023-06-12
 
 ### Fixed

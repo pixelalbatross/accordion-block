@@ -76,7 +76,7 @@ export default function Edit({ attributes, setAttributes, isSelected }) {
 				<div {...innerBlocksProps} />
 			</div>
 			<InspectorControls>
-				<PanelBody title={__('Accordion Item Settings', 'accordion-block')}>
+				<PanelBody title={__('Settings', 'accordion-block')}>
 					<PanelRow>
 						<ToggleControl
 							label={__('Expand by default', 'accordion-block')}
