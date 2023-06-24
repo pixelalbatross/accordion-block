@@ -37,6 +37,7 @@ export default function Edit({ attributes, setAttributes, isSelected }) {
 		'core/button',
 		'core/buttons',
 		'core/columns',
+		'core/cover',
 		'core/group',
 		'core/heading',
 		'core/image',

@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file, per [the Ke
 
 ## [Unreleased]
 
+### Added
+
+- 'Cover' block to list of allowed blocks.
+- CODEOWNERS file
+
 ### Changed
 
 - Settings panel label.

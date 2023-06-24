@@ -4,7 +4,7 @@
 
 ## Description
 
-Accessible, and progressively enhanced accordion block for the WordPress block editor.
+An accessible, and progressively enhanced accordion block for the WordPress block editor.
 
 No styling is provided other than the essentials for toggling the visibility of accordion sections and working without JavaScript.
 
