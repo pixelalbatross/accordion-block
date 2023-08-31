@@ -43,12 +43,7 @@
 		pointer-events: none;
 	}
 
-	& .accordion-panel {
-		display: block;
-	}
-
 	@nest .js & .accordion-panel[hidden] {
 		content-visibility: hidden;
-		display: inherit;
 	}
 }

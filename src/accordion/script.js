@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const close = (button, panel) => {
 		button.setAttribute('aria-expanded', 'false');
 		button.setAttribute('aria-label', button.dataset.ariaLabelOpen);
-		panel.setAttribute('hidden', 'until-found');
+		panel.setAttribute('hidden', 'hidden');
 
 		dispatchEvent(button, 'accordion:item:close', {
 			bubbles: true,
