@@ -29,11 +29,11 @@
 			width: 0.5rem;
 		}
 
-		@nest .js &::before {
+		.js &::before {
 			transform: translateY(-60%) rotate(45deg);
 		}
 
-		@nest .js &[aria-expanded="true"]::before {
+		.js &[aria-expanded="true"]::before {
 			transform: translateY(-50%) rotate(-135deg);
 		}
 	}
@@ -43,7 +43,7 @@
 		pointer-events: none;
 	}
 
-	@nest .js & .accordion-panel[hidden] {
+	.js & .accordion-panel[hidden] {
 		content-visibility: hidden;
 	}
 }
