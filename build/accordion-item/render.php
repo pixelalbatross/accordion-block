@@ -69,7 +69,7 @@ $aria_label_close = sprintf(
 		class="accordion-panel"
 		role="region"
 		<?php if ( ! $is_open ) : ?>
-		hidden="until-found"
+		hidden="hidden"
 		<?php endif; ?>
 	>
 		<?php echo $content; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
