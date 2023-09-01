@@ -43,7 +43,11 @@
 		pointer-events: none;
 	}
 
+	& .accordion-panel {
+		display: block;
+	}
+
 	.js & .accordion-panel[hidden] {
-		content-visibility: hidden;
+		display: none;
 	}
 }
