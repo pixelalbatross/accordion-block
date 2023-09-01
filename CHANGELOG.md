@@ -2,12 +2,17 @@
 
 All notable changes to this project will be documented in this file, per [the Keep a Changelog standard](http://keepachangelog.com/).
 
-## [Unreleased]
+## [0.3.0] - 2023-09-01
 
 ### Added
 
-- 'Cover' block to list of allowed blocks.
+- 'Cover' and 'Quote' blocks to list of allowed blocks.
 - CODEOWNERS file
+
+### Fixed
+
+- Browser support (props [@xipasduarte](https://github.com/xipasduarte) via #6).
+- PostCSS nesting deprecation.
 
 ### Changed
 

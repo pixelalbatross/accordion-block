@@ -29,15 +29,18 @@
 		}
 .js .wp-block-pixelalbatross-accordion .accordion-button::before {
 			transform: translateY(-60%) rotate(45deg);
-	}
+		}
 .js .wp-block-pixelalbatross-accordion .accordion-button[aria-expanded="true"]::before {
 			transform: translateY(-50%) rotate(-135deg);
-	}
+		}
 .wp-block-pixelalbatross-accordion .accordion-title {
 		display: block;
 		pointer-events: none;
 	}
+.wp-block-pixelalbatross-accordion .accordion-panel {
+		display: block;
+	}
 .js .wp-block-pixelalbatross-accordion .accordion-panel[hidden] {
-		content-visibility: hidden;
-}
+		display: none;
+	}
 
