@@ -45,6 +45,7 @@ export default function Edit({ attributes, setAttributes, isSelected }) {
 		'core/list',
 		'core/media-text',
 		'core/paragraph',
+		'core/quote',
 		'core/separator',
 		'core/table',
 	]);
