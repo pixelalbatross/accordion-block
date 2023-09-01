@@ -37,11 +37,7 @@
 		display: block;
 		pointer-events: none;
 	}
-.wp-block-pixelalbatross-accordion .accordion-panel {
-		display: block;
-	}
 .js .wp-block-pixelalbatross-accordion .accordion-panel[hidden] {
 		content-visibility: hidden;
-		display: inherit;
 }
 
