@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Accordion Block 0.3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/accordion-block\n"
+"POT-Creation-Date: 2023-09-07T00:21:35+00:00\n"
+"PO-Revision-Date: 2023-09-07 02:03+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Domain: accordion-block\n"
+
+#. Plugin Name of the plugin
+msgid "Accordion Block"
+msgstr "Bloco de Acordeão"
+
+#. Plugin URI of the plugin
+msgid "https://pixelalbatross.pt/?utm_source=wp-plugins&utm_medium=accordion-block&utm_campaign=plugin-uri"
+msgstr ""
+
+#. Description of the plugin
+msgid "Display content in collapsible sections."
+msgstr "Exibe conteúdo em secções recolhíveis."
+
+#. Author of the plugin
+msgid "Pixel Albatross"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://pixelalbatross.pt/?utm_source=wp-plugins&utm_medium=accordion-block&utm_campaign=author-uri"
+msgstr ""
+
+#. translators: %s accordion title
+#: build/accordion-item/render.php:20
+msgctxt "ARIA label when the accordion is closed"
+msgid "%s, show this section"
+msgstr "%s, mostrar esta secção"
+
+#. translators: %s accordion title
+#: build/accordion-item/render.php:26
+msgctxt "ARIA label when the accordion is open"
+msgid "%s, hide this section"
+msgstr "%s, ocultar esta secção"
+
+#: build/accordion-item/block.json
+msgctxt "block title"
+msgid "Accordion Item"
+msgstr "Item de acordeão"
+
+#: build/accordion-item/block.json build/accordion/block.json
+msgctxt "block description"
+msgid "Display content in collapsible sections."
+msgstr "Apresentar conteúdo em secções recolhíveis."
+
+#: build/accordion/block.json
+msgctxt "block title"
+msgid "Accordion"
+msgstr "Acordeão"
+
+#: build/accordion/block.json
+msgctxt "block keyword"
+msgid "accordion"
+msgstr "acordeão"
+
+#: build/accordion/block.json
+msgctxt "block keyword"
+msgid "collapse"
+msgstr "recolhível"
+
+#: build/accordion-item/index.js:1
+msgid "Accordion Title"
+msgstr "Título do acordeão"
+
+#: build/accordion-item/index.js:1
+msgid "Settings"
+msgstr "Configurações"
+
+#: build/accordion-item/index.js:1
+msgid "Expand by default"
+msgstr "Expandir por omissão"
+
+#: build/accordion-item/index.js:1
+msgid "When enabled, the item will be expanded by default on page load."
+msgstr "Quando activado, o item será expandido por omissão no carregamento da página."
