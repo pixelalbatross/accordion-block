@@ -10,7 +10,6 @@
     "accordion",
     "collapse"
   ],
-  "version": "0.1.0",
   "textdomain": "accordion-block",
   "attributes": {},
   "supports": {

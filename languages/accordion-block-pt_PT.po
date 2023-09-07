@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Accordion Block 0.3.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/accordion-block\n"
-"POT-Creation-Date: 2023-09-07T00:21:35+00:00\n"
-"PO-Revision-Date: 2023-09-07 02:03+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-09-07T00:21:35+00:00\n"
+"PO-Revision-Date: 2023-09-07 02:03+0100\n"
+"Language: pt_PT\n"
 "X-Generator: Poedit 3.3.2\n"
 "X-Domain: accordion-block\n"
 
@@ -50,7 +50,8 @@ msgctxt "block title"
 msgid "Accordion Item"
 msgstr "Item de acordeão"
 
-#: build/accordion-item/block.json build/accordion/block.json
+#: build/accordion-item/block.json
+#: build/accordion/block.json
 msgctxt "block description"
 msgid "Display content in collapsible sections."
 msgstr "Apresentar conteúdo em secções recolhíveis."
