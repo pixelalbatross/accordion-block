@@ -12,7 +12,7 @@ import { useBlockProps, useInnerBlocksProps } from '@wordpress/block-editor';
  *
  * @return {WPElement} Element to render.
  */
-export default function Edit() {
+export default function AccordionEdit() {
 	const blockProps = useBlockProps();
 	const innerBlocksProps = useInnerBlocksProps(blockProps, {
 		allowedBlocks: ['pixelalbatross/accordion-item'],
