@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file, per [the Keep a Changelog standard](http://keepachangelog.com/).
 
+## [Unreleased]
+
+### Changed
+
+- Block supports.
+
 ## [0.6.0] - 2024-08-04
 
 ### Added
@@ -60,4 +66,5 @@ All notable changes to this project will be documented in this file, per [the Ke
 - Docblocks (props [@szepeviktor](https://github.com/szepeviktor)).
 
 ## [0.1.0] - 2023-03-26
+
 - Initial release.
