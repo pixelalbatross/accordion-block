@@ -19,7 +19,5 @@ export default function AccordionEdit() {
 		template: [['pixelalbatross/accordion-item'], ['pixelalbatross/accordion-item']],
 	});
 
-	return (
-		<div {...innerBlocksProps} />
-	);
+	return <div {...innerBlocksProps} />;
 }

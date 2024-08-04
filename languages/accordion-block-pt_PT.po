@@ -14,22 +14,27 @@ msgstr ""
 "X-Domain: accordion-block\n"
 
 #. Plugin Name of the plugin
+#: accordion-block.php
 msgid "Accordion Block"
 msgstr "Bloco de Acordeão"
 
 #. Plugin URI of the plugin
+#: accordion-block.php
 msgid "https://pixelalbatross.pt/?utm_source=wp-plugins&utm_medium=accordion-block&utm_campaign=plugin-uri"
 msgstr ""
 
 #. Description of the plugin
+#: accordion-block.php
 msgid "Display content in collapsible sections."
 msgstr "Exibe conteúdo em secções recolhíveis."
 
 #. Author of the plugin
+#: accordion-block.php
 msgid "Pixel Albatross"
 msgstr ""
 
 #. Author URI of the plugin
+#: accordion-block.php
 msgid "https://pixelalbatross.pt/?utm_source=wp-plugins&utm_medium=accordion-block&utm_campaign=author-uri"
 msgstr ""
 

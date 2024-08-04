@@ -6,7 +6,11 @@ All notable changes to this project will be documented in this file, per [the Ke
 
 ### Added
 
-- WordPress Plugin Check Action
+- WordPress Plugin Check Action (props @swissspidy).
+
+### Fixed
+
+- Parity between the HTML of accordion in the editor and the frontend.
 
 ## [0.5.0] - 2023-10-08
 
