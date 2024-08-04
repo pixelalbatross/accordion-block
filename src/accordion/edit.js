@@ -20,8 +20,6 @@ export default function AccordionEdit() {
 	});
 
 	return (
-		<div {...blockProps}>
-			<div {...innerBlocksProps} />
-		</div>
+		<div {...innerBlocksProps} />
 	);
 }
