@@ -1,5 +1,5 @@
 # Copyright (C) 2024 Pixel Albatross
-# This file is distributed under the GPL-2.0-or-later.
+# This file is distributed under the GPL-3.0-or-later.
 msgid ""
 msgstr ""
 "Project-Id-Version: Accordion Block 0.6.0\n"

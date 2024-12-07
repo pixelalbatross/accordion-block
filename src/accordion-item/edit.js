@@ -22,7 +22,7 @@ import { applyFilters } from '@wordpress/hooks';
  *
  * @return {WPElement} Element to render.
  */
-export default function Edit({ attributes, setAttributes, isSelected }) {
+export default function AccordionItemEdit({ attributes, setAttributes, isSelected }) {
 	const { title, isOpen } = attributes;
 	const { clientId } = useBlockEditContext();
 	const hasSelectedInnerBlock = useSelect((select) =>
