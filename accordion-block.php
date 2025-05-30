@@ -3,9 +3,9 @@
  * Plugin Name:       Accordion Block
  * Description:       Display content in collapsible sections.
  * Plugin URI:        https://pixelalbatross.pt/?utm_source=wp-plugins&utm_medium=accordion-block&utm_campaign=plugin-uri
- * Requires at least: 6.1
+ * Requires at least: 6.5
  * Requires PHP:      7.4
- * Version:           0.7.2
+ * Version:           0.7.3
  * Author:            Pixel Albatross
  * Author URI:        https://pixelalbatross.pt/?utm_source=wp-plugins&utm_medium=accordion-block&utm_campaign=author-uri
  * License:           GPL-3.0-or-later
@@ -14,7 +14,7 @@
  * GitHub Plugin URI: https://github.com/pixelalbatross/accordion-block
  * Text Domain:       accordion-block
  *
- * @package           pixelalbatross/accordion-block
+ * @package           AccordionBlock
  */
 
 namespace PixelAlbatross\WP\AccordionBlock;

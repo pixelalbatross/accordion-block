@@ -66,14 +66,18 @@ export default function AccordionItemEdit({ attributes, setAttributes, isSelecte
 		<>
 			<div {...blockProps}>
 				<div className="accordion-header">
-					<RichText
-						tagName="h2"
-						value={title}
-						onChange={(value) => setAttributes({ title: value })}
-						placeholder={__('Accordion Title', 'accordion-block')}
-						allowedFormats={[]}
-						className="accordion-heading"
-					/>
+					<div className="accordion-heading" role="heading" aria-level="2">
+						<div className="accordion-button" role="button">
+							<RichText
+								tagName="span"
+								value={title}
+								onChange={(value) => setAttributes({ title: value })}
+								placeholder={__('Accordion Title', 'accordion-block')}
+								allowedFormats={[]}
+								className="accordion-title"
+							/>
+						</div>
+					</div>
 				</div>
 				<div {...innerBlocksProps} />
 			</div>

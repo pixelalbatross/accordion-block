@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file, per [the Keep a Changelog standard](http://keepachangelog.com/).
 
+## [0.7.3] - 2025-05-30
+
+### Changed
+
+- Accordion item JS markup to match the PHP output.
+
 ## [0.7.2] - 2024-12-07
 
 ### Changed
