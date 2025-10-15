@@ -12,11 +12,6 @@ It was heavily inspired on the accordion patterns recommended by the [W3C Web Ac
 
 The icons are from [Themify Icons](https://themify.me/themify-icons).
 
-## Requirements
-
-* PHP 7.4+
-* WordPress 6.1+
-
 ## Installation
 
 `composer require pixelalbatross/accordion-block`

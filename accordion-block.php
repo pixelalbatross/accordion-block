@@ -3,9 +3,9 @@
  * Plugin Name:       Accordion Block
  * Description:       Display content in collapsible sections.
  * Plugin URI:        https://pixelalbatross.pt/?utm_source=wp-plugins&utm_medium=accordion-block&utm_campaign=plugin-uri
- * Requires at least: 6.5
+ * Requires at least: 6.7
  * Requires PHP:      7.4
- * Version:           0.7.3
+ * Version:           0.7.4
  * Author:            Pixel Albatross
  * Author URI:        https://pixelalbatross.pt/?utm_source=wp-plugins&utm_medium=accordion-block&utm_campaign=author-uri
  * License:           GPL-3.0-or-later
@@ -17,7 +17,7 @@
  * @package           AccordionBlock
  */
 
-namespace PixelAlbatross\WP\AccordionBlock;
+namespace PixelAlbatross\WP\Blocks\Accordion;
 
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
@@ -26,10 +26,10 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'PIXALB_ACCORDION_BLOCK_PATH', plugin_dir_path( __FILE__ ) );
+define( 'PIXELALBATROSS_ACCORDION_BLOCK_PATH', plugin_dir_path( __FILE__ ) );
 
-if ( file_exists( PIXALB_ACCORDION_BLOCK_PATH . 'vendor/autoload.php' ) ) {
-	require_once PIXALB_ACCORDION_BLOCK_PATH . 'vendor/autoload.php';
+if ( file_exists( PIXELALBATROSS_ACCORDION_BLOCK_PATH . 'vendor/autoload.php' ) ) {
+	require_once PIXELALBATROSS_ACCORDION_BLOCK_PATH . 'vendor/autoload.php';
 }
 
 PucFactory::buildUpdateChecker(
@@ -47,7 +47,7 @@ PucFactory::buildUpdateChecker(
  */
 function init() {
 
-	$block_json_files = glob( PIXALB_ACCORDION_BLOCK_PATH . 'build/*/block.json' );
+	$block_json_files = glob( PIXELALBATROSS_ACCORDION_BLOCK_PATH . 'build/*/block.json' );
 
 	foreach ( $block_json_files as $filename ) {
 
@@ -59,7 +59,7 @@ function init() {
 				wp_set_script_translations(
 					$handle,
 					'accordion-block',
-					PIXALB_ACCORDION_BLOCK_PATH . 'languages'
+					PIXELALBATROSS_ACCORDION_BLOCK_PATH . 'languages'
 				);
 			}
 		}
@@ -73,7 +73,7 @@ add_action( 'init', __NAMESPACE__ . '\init' );
  * @return void
  */
 function i18n() {
-	load_plugin_textdomain( 'accordion-block', false, plugin_basename( PIXALB_ACCORDION_BLOCK_PATH ) . '/languages' );
+	load_plugin_textdomain( 'accordion-block', false, plugin_basename( PIXELALBATROSS_ACCORDION_BLOCK_PATH ) . '/languages' );
 }
 add_action( 'init', __NAMESPACE__ . '\i18n' );
 

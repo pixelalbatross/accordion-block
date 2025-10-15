@@ -40,12 +40,14 @@ msgstr ""
 
 #. translators: %s accordion title
 #: build/accordion-item/render.php:20
+#, php-format
 msgctxt "ARIA label when the accordion is closed"
 msgid "%s, show this section"
 msgstr "%s, mostrar esta secção"
 
 #. translators: %s accordion title
 #: build/accordion-item/render.php:26
+#, php-format
 msgctxt "ARIA label when the accordion is open"
 msgid "%s, hide this section"
 msgstr "%s, ocultar esta secção"
