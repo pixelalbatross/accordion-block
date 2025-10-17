@@ -13,8 +13,6 @@
  * Update URI:        https://pixelalbatross.pt/
  * GitHub Plugin URI: https://github.com/pixelalbatross/accordion-block
  * Text Domain:       accordion-block
- *
- * @package           AccordionBlock
  */
 
 namespace PixelAlbatross\WP\Blocks\Accordion;
