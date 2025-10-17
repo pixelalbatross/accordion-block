@@ -7,6 +7,8 @@
  * @var \WP_Block $block      Block instance.
  */
 
+namespace PixelAlbatross\WP\Blocks\Accordion;
+
 if ( empty( $attributes['title'] ) ) {
 	return;
 }
