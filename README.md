@@ -14,11 +14,25 @@ The icons are from [Themify Icons](https://themify.me/themify-icons).
 
 ## Installation
 
-`composer require pixelalbatross/accordion-block`
+### Manual Installation
 
-1. Download and extract the [.zip file](https://github.com/pixelalbatross/accordion-block/archive/refs/heads/main.zip).
-2. Install the plugin via the plugin installer by uploading the .zip file.
-3. Activate the plugin.
+1. Download the plugin ZIP file from the GitHub repository.
+2. Go to Plugins > Add New > Upload Plugin in your WordPress admin area.
+3. Upload the ZIP file and click Install Now.
+4. Activate the plugin.
+
+### Install with Composer
+
+To include this plugin as a dependency in your Composer-managed WordPress project:
+
+1. Add the plugin to your project using the following command:
+
+```bash
+`composer require pixelalbatross/accordion-block`
+```
+
+2. Run `composer install` to install the plugin.
+3. Activate the plugin from your WordPress admin area or using WP-CLI.
 
 ## Usage
 

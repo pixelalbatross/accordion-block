@@ -3,7 +3,7 @@
         'name' => 'pixelalbatross/accordion-block',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'a4a20b464f3edb15e16da9356bcee578fb0a741e',
+        'reference' => 'c56e601424efe49214cad77ca692e7ba0b760931',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'pixelalbatross/accordion-block' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'a4a20b464f3edb15e16da9356bcee578fb0a741e',
+            'reference' => 'c56e601424efe49214cad77ca692e7ba0b760931',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
