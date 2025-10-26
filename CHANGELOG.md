@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file, per [the Keep a Changelog standard](http://keepachangelog.com/).
 
+## [0.8.0] - 2025-10-26
+
+### Changed
+
+- Change plugin update checker to look for tags.
+- Update dependencies.
+
 ## [0.7.4] - 2025-10-16
 
 ### Changed

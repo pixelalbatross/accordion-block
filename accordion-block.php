@@ -5,7 +5,7 @@
  * Plugin URI:        https://pixelalbatross.pt/?utm_source=wp-plugins&utm_medium=accordion-block&utm_campaign=plugin-uri
  * Requires at least: 6.7
  * Requires PHP:      7.4
- * Version:           0.7.4
+ * Version:           0.8.0
  * Author:            Pixel Albatross
  * Author URI:        https://pixelalbatross.pt/?utm_source=wp-plugins&utm_medium=accordion-block&utm_campaign=author-uri
  * License:           GPL-3.0-or-later
@@ -34,7 +34,7 @@ PucFactory::buildUpdateChecker(
 	'https://github.com/pixelalbatross/accordion-block/',
 	__FILE__,
 	'accordion-block'
-)->setBranch( 'main' );
+);
 
 /**
  * Registers the block using the metadata loaded from the `block.json` file.
