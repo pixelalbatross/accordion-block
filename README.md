@@ -28,7 +28,7 @@ To include this plugin as a dependency in your Composer-managed WordPress projec
 1. Add the plugin to your project using the following command:
 
 ```bash
-`composer require pixelalbatross/accordion-block`
+composer require pixelalbatross/accordion-block
 ```
 
 2. Run `composer install` to install the plugin.
