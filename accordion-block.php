@@ -30,11 +30,12 @@ if ( file_exists( PIXELALBATROSS_ACCORDION_BLOCK_PATH . 'vendor/autoload.php' ) 
 	require_once PIXELALBATROSS_ACCORDION_BLOCK_PATH . 'vendor/autoload.php';
 }
 
-PucFactory::buildUpdateChecker(
+$update_checker = PucFactory::buildUpdateChecker(
 	'https://github.com/pixelalbatross/accordion-block/',
 	__FILE__,
 	'accordion-block'
 );
+$update_checker->getVcsApi()->enableReleaseAssets();
 
 /**
  * Registers the block using the metadata loaded from the `block.json` file.
