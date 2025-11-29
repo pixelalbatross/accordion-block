@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file, per [the Keep a Changelog standard](http://keepachangelog.com/).
 
+## [0.9.0] - 2025-11-29
+
+### Added
+
+- Add plugin icon.
+
 ## [0.8.0] - 2025-10-26
 
 ### Changed

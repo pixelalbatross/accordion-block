@@ -1,0 +1,26 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <!-- Card background -->
+  <rect x="1" y="1" width="22" height="22"
+        fill="#E6E6E8" rx="3"/>
+
+  <!-- Top header -->
+  <rect x="4" y="6" width="16" height="3"
+        fill="#ffffff" stroke="#111111" stroke-width="0.6"/>
+  <!-- Yellow ▼ -->
+  <polygon points="17,7.0 19,7.0 18,8.0"
+           fill="#F5B53A"/>
+
+  <!-- Middle header -->
+  <rect x="4" y="10" width="16" height="3"
+        fill="#ffffff" stroke="#111111" stroke-width="0.6"/>
+  <!-- Black ▼ -->
+  <polygon points="17,11.0 19,11.0 18,12.0"
+           fill="#111111"/>
+
+  <!-- Bottom header -->
+  <rect x="4" y="14" width="16" height="3"
+        fill="#ffffff" stroke="#111111" stroke-width="0.6"/>
+  <!-- Black ▼ -->
+  <polygon points="17,15.0 19,15.0 18,16.0"
+           fill="#111111"/>
+</svg>
