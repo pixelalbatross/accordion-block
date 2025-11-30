@@ -25,6 +25,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 define( 'PIXELALBATROSS_ACCORDION_BLOCK_PATH', plugin_dir_path( __FILE__ ) );
+define( 'PIXELALBATROSS_ACCORDION_BLOCK_URL', plugin_dir_url( __FILE__ ) );
 
 if ( file_exists( PIXELALBATROSS_ACCORDION_BLOCK_PATH . 'vendor/autoload.php' ) ) {
 	require_once PIXELALBATROSS_ACCORDION_BLOCK_PATH . 'vendor/autoload.php';
@@ -35,7 +36,17 @@ $update_checker = PucFactory::buildUpdateChecker(
 	__FILE__,
 	'accordion-block'
 );
+
 $update_checker->getVcsApi()->enableReleaseAssets();
+
+$update_checker->addResultFilter(
+	function ( $plugin_info ) {
+		$plugin_info->icons = [
+			'svg' => PIXELALBATROSS_ACCORDION_BLOCK_URL . 'assets/images/icon.svg',
+		];
+		return $plugin_info;
+	}
+);
 
 /**
  * Registers the block using the metadata loaded from the `block.json` file.
