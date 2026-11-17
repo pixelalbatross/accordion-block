@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file, per [the Keep a Changelog standard](http://keepachangelog.com/).
 
+## [0.9.1] - 2026-11-17
+
+### Added
+
+- Admin notice on the Plugins screen: Outstand Accordion replaces this plugin, with a link to the migration guide.
+- A way for developers to hide the replacement notice, with the `pixelalbatross_accordion_block_show_replacement_notice` filter.
+- Notice in the README that Outstand Accordion replaces this plugin, with a link to the migration guide.
+
 ## [0.9.0] - 2025-11-29
 
 ### Added

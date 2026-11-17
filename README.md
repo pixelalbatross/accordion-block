@@ -2,6 +2,9 @@
 
 > The accordion block lets users show and hide sections of content on a page.
 
+> [!IMPORTANT]
+> **This plugin is no longer maintained.** It is replaced by [Outstand Accordion](https://github.com/pixelalbatross/outstand-accordion), which runs alongside it while you migrate. Follow the [migration guide](https://github.com/pixelalbatross/outstand-accordion/blob/1.0.0/MIGRATING.md) to convert your accordions in the editor or with WP-CLI.
+
 ## Description
 
 An accessible, and progressively enhanced accordion block for the WordPress block editor.

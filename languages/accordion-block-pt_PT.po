@@ -93,3 +93,9 @@ msgstr "Expandir por omissão"
 #: build/accordion-item/index.js:1
 msgid "When enabled, the item will be expanded by default on page load."
 msgstr "Quando activado, o item será expandido por omissão no carregamento da página."
+
+#. translators: 1: Outstand Accordion URL, 2: migration guide URL.
+#: accordion-block.php:127
+#, php-format
+msgid "Accordion Block is no longer maintained. It is replaced by <a href=\"%1$s\">Outstand Accordion</a>, which can run alongside it while you migrate. Follow the <a href=\"%2$s\">migration guide</a> to convert your accordions in the editor or with WP-CLI."
+msgstr "O Accordion Block deixou de ser mantido. Foi substituído pelo <a href=\"%1$s\">Outstand Accordion</a>, que pode funcionar em simultâneo enquanto faz a migração. Siga o <a href=\"%2$s\">guia de migração</a> para converter os seus acordeões no editor ou com o WP-CLI."

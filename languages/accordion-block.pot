@@ -39,6 +39,12 @@ msgstr ""
 msgid "https://pixelalbatross.pt/?utm_source=wp-plugins&utm_medium=accordion-block&utm_campaign=author-uri"
 msgstr ""
 
+#. translators: 1: Outstand Accordion URL, 2: migration guide URL.
+#: accordion-block.php:127
+#, php-format
+msgid "Accordion Block is no longer maintained. It is replaced by <a href=\"%1$s\">Outstand Accordion</a>, which can run alongside it while you migrate. Follow the <a href=\"%2$s\">migration guide</a> to convert your accordions in the editor or with WP-CLI."
+msgstr ""
+
 #. translators: %s accordion title
 #: build/accordion-item/render.php:20
 #, php-format
